@@ -1,0 +1,32 @@
+body
+{
+font-family: 'Noto Sans JP', sans-serif;
+font-size: 16px;
+    
+
+
+}
+
+.tekst1
+{
+font-weight: bold;
+text-indent: 20px
+}
+
+.tekst2
+{
+ font-weight: 100; 
+ text-indent: 40px;
+ line-height: 4; 
+    
+    
+}
+
+
+.tekst3
+{
+ font-weight: 900;
+ line-height: 0.4;
+ text-indent: 80px  
+    
+}

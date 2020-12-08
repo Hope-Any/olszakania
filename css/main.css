@@ -1,0 +1,37 @@
+body
+{
+ background-color: #292c3d ;
+ font-family: Noto Sans JP;
+ font-size: 20px;
+ color: white ;
+    
+}
+a:link
+{
+
+color: tomato;
+
+
+
+}
+
+a:visited
+{
+
+color: orange;
+
+}
+
+a:hover
+{
+color: yellow;
+
+
+}
+
+.lista2
+{
+list-style-position: outside;
+list-style-image: url("/img/marker.png");
+
+}

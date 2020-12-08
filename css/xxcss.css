@@ -1,0 +1,34 @@
+th {
+
+    border-collapse: collapse;
+    border:1px solid ;
+}
+
+td {
+    border-collapse: collapse;
+    border:1px solid ;
+}
+
+
+
+caption {
+    font-size:20px
+}
+
+.kolor1 {
+background: orange;
+text-align: center;
+color: white;
+font-weight:600;
+border:1px white;
+}
+
+.kolor2 {
+background: blue;
+height: 5mm;
+}
+
+.num {
+text-align: center;
+}
+

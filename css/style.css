@@ -1,0 +1,32 @@
+img{
+	height: 11%;
+	width: 11%;
+	float: left;
+	margin-right: 20px;
+}
+
+
+}
+figcaption{
+	color: gray;
+}
+
+.pocz { font-size: 21px;
+}
+
+.mid { font-size: 20px;
+}
+
+.kon { font-size: 20px;
+}
+
+
+header{
+	font-family: arial;
+	text-align: center;
+	color: white;
+	font-size: 22px;
+	background-color: green;
+	padding-top: 4px;
+	padding-bottom: 1px;
+}
