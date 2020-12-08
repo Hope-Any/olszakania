@@ -32,6 +32,6 @@ color: yellow;
 .lista2
 {
 list-style-position: outside;
-list-style-image: url("/img/marker.png");
+list-style-image: url("img/marker.png");
 
 }
