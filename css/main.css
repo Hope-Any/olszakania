@@ -61,7 +61,7 @@ nav{
 
 
 
-.stopa
+.stopka
 { 	
 	box-sizing: border-box;
 	font-family: 'Poppin', sans-serif;
@@ -70,12 +70,20 @@ nav{
 	color:white;
 
 	width:100%;
-	position: static;
+	position: fixed;
 	bottom:0;
 	right:0 3rem;
-	background:#0D1D49;
+	background:#242C74;
 	display:flex;
 	align-items:center;
+}
+.stopka p
+{
+
+	margin: 0 1rem;
+	text-decoration:none;
+	color:white;
+	padding:1rem .5rem;
 }
 
 
