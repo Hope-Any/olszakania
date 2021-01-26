@@ -21,9 +21,7 @@ body
 	
 }
 .napis{
-	position: absolute;
 	
-	margin: -10px;
 }
 
 
@@ -44,11 +42,7 @@ body
 	border: 1px solid transparent;
 	transition: 0.8s ease;
 }
-.pudelko{
-  position: relative;	
-	
-	
-}
+
 
 
 
