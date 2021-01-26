@@ -87,7 +87,9 @@ nav{
 }
 .pudelko{
     background:#3f7cef;
-tekst-align:center;
+display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 
 
