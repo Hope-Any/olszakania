@@ -7,7 +7,7 @@ body
  background-color: #FFFFFF ;
  font-family: Noto Sans JP;
  font-size: 20px;
- color:#000000 ;
+ color:black ;
     
 }
 .b{
@@ -16,53 +16,67 @@ body
 	background-size: cover;
 	background-position: center;	
 	
-
-	
 	
 }
-
-nav
-{
-
-	position: sticky;
+nav{
+	
+		position: -webkit-sticky;
+		position: sticky;
+		top: 0;
+		padding: 5px;
+		
+	 
 }
+
 .lista_glowna{
 	float: left;
 	list-style-type: none;
-	margin-top: 15px;
 	position: sticky;
+	top: 0;
+	padding: 5px;
+	
 }
 
 .podpunkty_glowne{
 	display: inline-block;
 	position: sticky;
+	top: 0;
+	padding: 5px;
+	
 
 }
 .podpunkty_glowne_link{
 	text-decoration: none;
-	color: #000000;
+	color: black;
 	padding: 5px 15px;
 	border: 1px solid transparent;
 	transition: 0.8s ease;
 	position: sticky;
-	
+	top: 0;
+	padding: 5px;
+	background-color: #cae8ca;
+		border: 2px solid #4CAF50;
 }
 
 
 
-}
+
 .stopa
 { 	
-	width:40%;
-	height:100%;
-	margin-left:auto;
-	margin-right:auto;
-	background:#000000;
-	font-size:12px;
-	font-family:'Poppin', sans-serif;
-	text-align:center;
-}
+	box-sizing: border-box;
+	font-family: 'Poppin', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	color:white;
 
+	width:100%;
+	position: static;
+	bottom:0;
+	right:0 3rem;
+	background:#0D1D49;
+	display:flex;
+	align-items:center;
+}
 
 
 
