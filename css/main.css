@@ -47,6 +47,22 @@ position: sticky;
 
 
 }
+.stopa
+{ 	
+	box-sizing: border-box;
+	font-family: 'Poppin', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	color:white;
+
+	width:100%;
+	position: fixed;
+	bottom:0;
+	right:0 3rem;
+	background:#242C74;
+	display:flex;
+	align-items:center;
+}
 
 
 
