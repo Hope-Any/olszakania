@@ -53,19 +53,14 @@ nav
 }
 .stopa
 { 	
-	box-sizing: border-box;
-	font-family: 'Poppin', sans-serif;
-	font-size: 18px;
-	font-weight: 500;
-	color:white;
-
-	width:100%;
-	position: static;
-	bottom:0;
-	right:0 3rem;
-	background:#0D1D49;
-	display:flex;
-	align-items:center;
+	width:40%;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+	background:#000000;
+	font-size:12px;
+	font-family:'Poppin', sans-serif;
+	text-align:center;
 }
 
 
