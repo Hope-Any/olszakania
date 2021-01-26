@@ -67,7 +67,7 @@ nav{
 	font-family: 'Poppin', sans-serif;
 	font-size: 18px;
 	font-weight: 500;
-	color:white;
+	color:#ffffff;
 
 	width:100%;
 	position: fixed;
@@ -82,7 +82,7 @@ nav{
 
 	margin: 0 1rem;
 	text-decoration:none;
-	color:#0C1E42;
+	color:#ffffff;
 	padding:1rem .5rem;
 }
 .pudelko{
