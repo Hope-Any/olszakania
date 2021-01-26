@@ -6,10 +6,9 @@ body
  color: white ;
     
 }
-a:link
-{
 
-color: tomato;
+
+
 
 .lista_glowna{
 	float: left;
@@ -30,25 +29,5 @@ color: tomato;
 }
 
 
-}
-
-a:visited
-{
-
-color: orange;
-
-}
-
-a:hover
-{
-color: yellow;
 
 
-}
-
-.lista2
-{
-list-style-position: outside;
-list-style-image: url("img/marker.png");
-
-}
