@@ -102,7 +102,7 @@ align:center;
 	margin-right:auto;
 	position: relative;
     text-align: center;
-	
+	z-index:1;
 	
 	
 }
@@ -112,7 +112,7 @@ right:300px;
 	top:70px;
 	width:25%;
 	height:25%;
-
+z-index:5;
 }
 
 
