@@ -7,7 +7,7 @@ body
  background-color: #FFFFFF ;
  font-family: Noto Sans JP;
  font-size: 20px;
- color: white ;
+ color:black ;
     
 }
 .b{
@@ -20,11 +20,12 @@ body
 	
 	
 }
-.napis{
-	
+
+nav
+{
+
+	position: sticky;
 }
-
-
 .lista_glowna{
 	float: left;
 	list-style-type: none;
@@ -34,17 +35,19 @@ body
 
 .podpunkty_glowne{
 	display: inline-block;
+	position: sticky;
 
 }
 .podpunkty_glowne_link{
 	text-decoration: none;
-	color: #fff;
+	color: black;
 	padding: 5px 15px;
 	border: 1px solid transparent;
 	transition: 0.8s ease;
+	position: sticky;
+	
 }
-nav{
-position: sticky;
+
 
 
 }
@@ -64,6 +67,9 @@ position: sticky;
 	display:flex;
 	align-items:center;
 }
+
+
+
 
 
 
