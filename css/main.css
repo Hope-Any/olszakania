@@ -21,7 +21,7 @@ body
 	
 }
 .napis{
-	position: absolute;
+	position:relative;
 	left:100px;
 	right:160px;
 	margin: -10
