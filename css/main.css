@@ -99,7 +99,9 @@ nav{
 #baner{
 align:center;
 	margin-left: auto;
-	margin-right:auto;	
+	margin-right:auto;
+	position: relative;
+    text-align: center;
 	
 	
 	
