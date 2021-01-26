@@ -1,3 +1,7 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0px;
+  }
 body
 {
  background-color: #2667ff ;
@@ -15,6 +19,9 @@ body
 
 	
 	
+}
+.napis{
+	position: 
 }
 
 
