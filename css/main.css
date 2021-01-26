@@ -19,6 +19,14 @@ color: tomato;
 
 .podpunkty_glowne{
 	display: inline-block;
+
+}
+.podpunkty_glowne_link{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 15px;
+	border: 1px solid transparent;
+	transition: 0.8s ease;
 }
 
 
