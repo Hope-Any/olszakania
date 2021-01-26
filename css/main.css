@@ -4,7 +4,7 @@
   }
 body
 {
- background-color: #2667ff ;
+ background-color: #FFFFFF ;
  font-family: Noto Sans JP;
  font-size: 20px;
  color: white ;
@@ -59,7 +59,7 @@ position: sticky;
 	position: static;
 	bottom:0;
 	right:0 3rem;
-	background:#242C74;
+	background:#0D1D49;
 	display:flex;
 	align-items:center;
 }
