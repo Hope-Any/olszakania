@@ -22,9 +22,8 @@ body
 }
 .napis{
 	position: absolute;
-	 top: 50%;
-  left: 50%;
-	margin: 0
+	
+	margin: -10px;
 }
 
 
