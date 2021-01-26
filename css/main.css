@@ -91,7 +91,9 @@ nav{
 
 display: flex;
  
-text-align: center
+margin:
+	left:auto;
+	right:auto;
  
 }
 
