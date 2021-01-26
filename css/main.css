@@ -76,6 +76,99 @@ nav{
 	background:#0C1E42;
 	display:flex;
 	align-items:center;
+	z-index: 20;
+
+}
+.stopka p
+{
+
+	margin: 0 1rem;
+	text-decoration:none;
+	color:#ffffff;
+	padding:1rem .5rem;
+}
+.pudelko{
+    background:#3f7cef;
+
+	margin-left: auto;
+	margin-right:auto;
+
+
+ 
+
+}
+
+#baner{
+
+	margin-left: auto;
+	margin-right:auto;
+	position: relative;
+    text-align: center;
+	z-index:1;
+	
+	
+}
+#cat{
+position:absolute;
+right:270px;
+	top:90px;
+	width:25%;
+	height:25%;
+z-index:5;
+}
+.tlo{
+	background-color:#F05E68 ;
+left:80px;
+right: 0px;
+	top:30px;
+	width:350px;
+	height:350px;
+	z-index: 7;
+	position: relative;
+	float: left;
+
+
+
+}
+.zdj1{
+
+	left:-180px;
+	top:10px;
+	width:350px;
+	height:350px;
+	z-index: 7;
+	position: relative;
+	float: left;
+	right: 0px;
+}
+
+
+
+
+.t{
+
+
+	z-index: 7;
+
+}
+
+
+
+.stopka
+{ 	
+	box-sizing: border-box;
+	font-family: 'Poppin', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	color:#ffffff;
+
+	width:100%;
+	position: fixed;
+	bottom:0;
+	right:0 3rem;
+	background:#0C1E42;
+	display:flex;
+	align-items:center;
 }
 .stopka p
 {
