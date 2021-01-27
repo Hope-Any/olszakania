@@ -127,7 +127,7 @@ right: 0px;
 	top:30px;
 	width:350px;
 	height:350px;
-	z-index: 7;
+	z-index: 15;
 	position: relative;
 	float: left;
 
@@ -140,7 +140,7 @@ right: 0px;
 	top:10px;
 	width:350px;
 	height:350px;
-	z-index: 7;
+	z-index: 15;
 	position: relative;
 	float: left;
 	right: 0px;
@@ -152,7 +152,7 @@ right: 0px;
 .t{
 
 
-	z-index: 7;
+	z-index: 15;
 
 }
 
