@@ -159,7 +159,7 @@ nav {
     width:25%;
     height:25%;
     right:0px;
-    position: static;
+    position: relative;
     float: right;
 	right: 0px;
 	
