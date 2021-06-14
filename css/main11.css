@@ -1,0 +1,370 @@
+
+body{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    }
+    
+    
+    a{
+    
+    color: black;
+    text-decoration: none;
+    
+    }
+    
+    
+    header{
+    
+    background-color:#fef277;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .1);
+    position: fixed;
+    width: 100%;
+    margin-bottom: 10px;
+    z-index: 3;
+    
+    }
+    
+    
+    header ul{
+    
+    margin: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #fef277;
+    }
+    
+    
+    header li a{
+    
+    display: block;
+    padding: 20px;
+    border-right: 1px solid #f4f4f4;
+    
+    }
+    
+    
+    header li a:hover,header.menu-btm:hover {
+    background-color: #fef277;
+    
+    }
+    
+    
+    header .logo{
+    
+    display: block;
+    float: left;
+    /* padding: 10px 20px; */
+    font-size: 2em;
+    text-align: center;
+    margin-top: 0,5%;
+    
+    }
+    
+    header .menu{
+    clear: both;
+    max-height: 0;
+    transition: max-height 2s ;
+    -webkit-transition: max-height 2s ;
+    -moz-transition: max-height 2s ;
+    }
+    
+    header .menu-icon{
+    cursor: pointer;
+    float: right;
+    padding: 30px 20px;
+    position: relative;
+    }
+    
+     header .menu-icon .navicon{
+    background-color: #000;
+    display: block;
+    height: 2px;
+    width: 15px;
+    position: relative;
+    }
+    
+     header .menu-icon .navicon::before, header .menu-icon .navicon::after{
+    content: "";
+    background-color: #000;
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all 4s ;
+    
+     }
+    header .menu-icon .navicon::before{
+    top: 5px;
+    }
+    header .menu-icon .navicon::after{
+    top: -5px;
+    }
+    
+     header .menu-btm{
+    display: none;
+    
+     }
+    header .menu-btm:checked~.menu{
+    max-height: 250px;
+    
+     }
+    header .menu-btm:checked~.menu-icon .navicon::before{
+    transform: rotate(45deg) translateY(-8px) ;
+    }
+    header .menu-btm:checked~.menu-icon .navicon::after{
+    transform: rotate(-45deg) translateY(6px);
+    
+     }
+    header .menu-btm:checked~.menu-icon .navicon{
+    background-color: transparent;
+   
+    }
+    @media(min-width:100px){
+        #baner {
+    
+            margin-top: 5%;
+             max-width: 70%;
+             max-height: 100%; 
+             
+         }   
+         .tlo {
+     
+         
+        
+             max-width: 10%;
+             max-height: 10%;
+             float: left;
+             left:90px;
+        right: 0px;
+        top:30px;
+        margin-bottom: 100px;
+         
+         } 
+         .zdj1 {
+    
+        
+            max-width: 10%;
+            max-height: 10%;
+            z-index:10;
+            position: relative;
+            float: left;
+            left:90px;
+        right: 0px;
+        top:30px;
+        margin-bottom: 100px;
+           
+        
+        } 
+    }
+    @media (min-width: 480px){
+        #baner {
+    
+           margin-top: 5%;
+            max-width: 80%;
+            max-height: 100%; 
+            
+        }   
+        .tlo {
+    
+        
+       
+            max-width: 40%;
+            max-height: 40%;
+            float: left;
+            left:90px;
+        right: 0px;
+        top:30px;
+        margin-bottom: 100px;
+        
+        }
+        .zdj1 {
+    
+        
+            max-width: 40%;
+            max-height: 40%;
+            z-index:10;
+            position: relative;
+            float: left;
+            left:90px;
+        right: 0px;
+        top:30px;
+        margin-bottom: 100px;
+           
+        
+        }
+    }
+
+    @media (min-width: 670px)
+    {
+    
+    header li{
+    float:left;
+    }
+    header .menu-icon{
+    display: none;
+    }
+    header .menu{
+    float: right;
+    clear: none;
+    max-height: none;
+    }
+    #baner {
+    
+        margin-left: auto;
+        margin-right:auto;
+        position: relative;
+        text-align: center;
+        z-index:1;
+        max-width: 90%;
+        max-height: 70%; 
+        
+    }
+    .tlo {
+    
+        
+       
+        max-width: 70%;
+        max-height: 70%;
+        float: left;
+    
+    }
+    .zdj1 {
+    
+        left:90px;
+        right: 0px;
+        top:30px;
+        margin-bottom: 100px;
+        max-width: 70%;
+        max-height: 70%;
+        z-index:10;
+        position: relative;
+        float: left;
+       
+    
+    }
+    }
+    @media(min-width: 720px){
+        .zdj1 {
+            left: 0px;
+            top: -450px;
+            /* width: 350px; */
+            height: 350px;
+            z-index: 10;
+            position: relative;
+            float: left;
+            /* right: 0px; */
+        }
+
+        
+    }
+    *, *::before, *::after {
+        box-sizing: border-box;
+        /* margin: 0px; */
+    }
+    
+    body {
+    
+        background-color: #FFFFFF ;
+        font-family: Noto Sans JP;
+        font-size: 20px;
+        color:black ;
+        
+    }
+    
+    .b {
+    
+        height: 100vh;
+        background-size: cover;
+        background-position: center;	
+        
+        
+    }
+    
+   
+          
+    
+    .stopka {
+    
+        box-sizing: border-box;
+        font-family: 'Poppin', sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        color:#ffffff;
+        width:100%;
+        position: fixed;
+        bottom:0;
+        right:0 3rem;
+        background:#0C1E42;
+        display:flex;
+        align-items:center;
+        z-index: 20;
+    
+    }
+    
+    .stopka p {
+    
+        margin: 0 1rem;
+        text-decoration:none;
+        color:#ffffff;
+        padding:1rem .5rem;
+    
+    }
+    
+    .pudelko { 
+    
+        background:#3f7cef;
+        margin-left: auto;
+        margin-right:auto;
+    
+    }
+    
+    
+    
+   
+    
+    .tlo {
+    
+        background-color:#F05E68 ;
+        left:90px;
+        right: 0px;
+        top:30px;
+        margin-bottom: 100px;
+        width:350px;
+        height:350px;
+        z-index: 10;
+        position: relative;
+        float: left;
+    
+    }
+    
+    .zdj1 {
+    
+        left:-180px;
+        top:10px;
+        width:350px;
+        height:350px;
+        z-index:10;
+        position: relative;
+        float: left;
+        right: 0px;
+    
+    }
+    
+    
+    
+    
+    .t {
+    
+        position: relative;
+        z-index:1;
+    }
+
+     @media (min-width: 1200px){
+    #baner {
+    
+        
+        max-width: 100%; 
+      
+    } 
+}
